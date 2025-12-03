@@ -1,20 +1,10 @@
 {
   "enabled": true,
-
   "farm": {
     "enabled": true,
-
-    // de quantos em quantos segundos o ciclo automático roda
-    // 600 = 10 minutos
     "interval_seconds": 600,
-
-    // tempo do botão que você usou no Capitão quando ensinou
-    // 300 = 00:10:00  |  600 = 00:20:00  |  1800 = 00:60:00
     "time": 300,
-
-    // modo capitão (usa a chamada claim_loads_multiple que ele aprendeu)
     "mode": "captain"
   },
-
   "transports": []
 }
