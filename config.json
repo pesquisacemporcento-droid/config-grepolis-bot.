@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "farm": {
+    "enabled": false,
+    "interval_seconds": 600,
+    "claim_type": "normal",
+    "time": 300,
+    "villages": []
+  },
+  "transports": []
+}
