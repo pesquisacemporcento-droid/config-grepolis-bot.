@@ -1,11 +1,13 @@
 {
   "enabled": true,
+
   "farm": {
-    "enabled": false,
+    "enabled": true,
     "interval_seconds": 600,
     "claim_type": "normal",
     "time": 300,
-    "villages": []
+    "villages": [1813, 1814, 1815, 1816, 1818, 1513, 1514, 1515, 1516, 1517, 1518]
   },
+
   "transports": []
 }
