@@ -1,13 +1,14 @@
 {
-  "enabled": true,
-
-  "farm": {
     "enabled": true,
-    "interval_min": 605,
-    "interval_max": 690,
-  },
-
-  "transports": {
-    "enabled": false
-  }
+    "farm": {
+        "enabled": true,
+        "interval_min": 60,
+        "interval_max": 90
+    },
+    "transports": {
+        "enabled": false,
+        "target_town_id": "",
+        "max_percent": 100,
+        "interval_seconds": 300
+    }
 }
