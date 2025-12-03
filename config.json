@@ -2,8 +2,8 @@
     "enabled": true,
     "farm": {
         "enabled": true,
-        "interval_min": 60,
-        "interval_max": 90
+        "interval_min": 10,
+        "interval_max": 20
     },
     "transports": {
         "enabled": false,
