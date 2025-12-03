@@ -4,13 +4,17 @@
   "farm": {
     "enabled": true,
 
-    "mode": "captain",
-    "base_time": 300,
+    // intervalo aleatório entre ciclos automáticos (em segundos)
+    // mínimo 9 minutos, máximo 13 minutos
+    "interval_min_seconds": 540,
+    "interval_max_seconds": 780,
 
-    "interval_min": 540,
-    "interval_max": 720,
+    // tempo do botão do Capitão que você usou quando ensinou
+    // 300 = 00:10:00 | 600 = 00:20:00 | 1800 = 00:60:00
+    "time": 300,
 
-    "shuffle_cities": true
+    // MODO CAPITÃO REAL (usa a chamada claim_loads_multiple que já aprendeu)
+    "mode": "captain"
   },
 
   "transports": []
