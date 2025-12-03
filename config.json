@@ -1,10 +1,17 @@
 {
   "enabled": true,
+
   "farm": {
     "enabled": true,
-    "interval_seconds": 600,
-    "time": 300,
-    "mode": "captain"
+
+    "mode": "captain",
+    "base_time": 300,
+
+    "interval_min": 540,
+    "interval_max": 720,
+
+    "shuffle_cities": true
   },
+
   "transports": []
 }
