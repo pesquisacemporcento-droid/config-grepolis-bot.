@@ -5,8 +5,9 @@
     "enabled": true,
 
    
-    "interval_min_seconds": 540,
-    "interval_max_seconds": 780,
+    "interval_min_seconds": 10,
+"interval_max_seconds": 20
+
 
     
     "time": 300,
